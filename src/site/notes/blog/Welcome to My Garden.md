@@ -6,4 +6,4 @@
 # Welcome to My Garden
 This is the home page of my garden.
 
-[[fleeting notes/Game Theory - The Shapley Value|Game Theory - The Shapley Value]]
+[[blog/Blog|Blog]]
