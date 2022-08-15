@@ -4,3 +4,5 @@
 
 
 [[fleeting notes/Game Theory - The Shapley Value|Game Theory - The Shapley Value]]
+
+[[Tools/Obsidain Basic|Obsidain Basic]] 
