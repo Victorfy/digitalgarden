@@ -4,6 +4,7 @@
 
 
 # Welcome to My Garden
-This is the home page of my garden.
+This is the home page of my digital garden.
 
 [[blog/Blog|Blog]]
+[[blog/Read|Read]]
