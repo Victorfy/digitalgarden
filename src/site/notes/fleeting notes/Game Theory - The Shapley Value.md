@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/fleeting-notes/game-theory-the-shapley-value/","dgHomeLink":true,"dgPassFrontmatter":false}
+{"dg-publish":true,"permalink":"/fleeting-notes/game-theory-the-shapley-value/"}
 ---
 
 
