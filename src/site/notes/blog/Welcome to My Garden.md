@@ -6,5 +6,5 @@
 # Welcome to My Garden
 This is the home page of my digital garden.
 
-[[blog/Blog|Blog]]
-[[blog/Read|Read]]
+[[blog/Blog\|Blog]]
+[[blog/Read\|Read]]
