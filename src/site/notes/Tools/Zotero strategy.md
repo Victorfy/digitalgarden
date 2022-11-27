@@ -5,6 +5,15 @@
 
 # Zotero使用技巧
 
+- [[Tools/Zotero strategy#安装\|安装]]
+- [[Tools/Zotero strategy#常用插件工具\|常用插件工具]]
+- [[Tools/Zotero strategy#坚果云存储文献\|坚果云存储文献]]
+- [[Tools/Zotero strategy#快速复制参考文献格式到ppt\|快速复制参考文献格式到ppt]]
+- [[Tools/Zotero strategy#添加搜索引擎（optional）\|添加搜索引擎（optional）]]
+	- [[Tools/Zotero strategy#添加搜索引擎（optional）\|设置Sci-Hub作为PDF解析器]]
+- [[Tools/Zotero strategy#参考文献引用\|参考文献引用]]
+- [[Tools/Zotero strategy#ref\|ref]]
+
 ## 安装
 - 官网[Zotero | Your personal research assistant](https://www.zotero.org/)下载安装
 
@@ -54,7 +63,7 @@ preferences -> advanced -> files and folders -> show data directory -> Zotero ->
 - 然后点击OK。
 到此就成功将Sci-Hub配置为PDF解析器了，也就是说替代了默认的Unpaywall。
 
-## 参考文献引用
+## 引用参考文献
 中文书籍引用
 - 手动添加条目
 - 去douban上找相应的书籍利用插件添加
