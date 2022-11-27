@@ -8,23 +8,25 @@
 - [[Tools/Zotero strategy#安装\|安装]]
 - [[Tools/Zotero strategy#常用插件工具\|常用插件工具]]
 - [[Tools/Zotero strategy#坚果云存储文献\|坚果云存储文献]]
-- [[Tools/Zotero strategy#快速复制参考文献格式到ppt\|快速复制参考文献格式到ppt]]
-- [[Tools/Zotero strategy#添加搜索引擎（optional）\|添加搜索引擎（optional）]]
-	- [[Tools/Zotero strategy#添加搜索引擎（optional）\|设置Sci-Hub作为PDF解析器]]
-- [[Tools/Zotero strategy#参考文献引用\|参考文献引用]]
+- [[Tools/Zotero strategy#添加搜索引擎\|添加搜索引擎]]
+	- [[Tools/Zotero strategy#添加搜索引擎\|Zotero利用Sci-hub下载原文]]
+- [[Tools/Zotero strategy#引用参考文献\|引用参考文献]]
+	- [[Tools/Zotero strategy#引用参考文献\|中文书籍引用]]
+	- [[Tools/Zotero strategy#引用参考文献\|快速复制参考文献格式到ppt]]
 - [[Tools/Zotero strategy#ref\|ref]]
 
 ## 安装
 - 官网[Zotero | Your personal research assistant](https://www.zotero.org/)下载安装
 
 ## 常用插件工具
+zotero拥有很多开源插件，实现比如文献重命名、影响因子更新等，这也是相比其他文献管理软件来说优势之一
 - 浏览器插件Zotero connection
 	- chrome安装后可以在页面上直接点击从而收录到相应zotero文件夹
-- Better BibTex（可选）
-	- 用于Latex引用
 - Jasminum（中文文献必备）
 - ZotFile（必备）
 	- 用于整理附件
+- Better BibTex（可选）
+	- 用于Latex引用
 - 其他插件可看[Zotero中文社区](https://zotero-chinese.gitee.io/zotero-plugins/#/)
 	- 更新影响因子之类的
 
@@ -37,13 +39,10 @@
 - Zotero - preference - advanced - files and folder - linked attachment选择相对路径填写坚果云中新建的路径
 - 在其他电脑上安装坚果云同理设置即可同步附件
 
-## 快速复制参考文献格式到ppt
-* quick copy
-	* preference -> export -> quick copy
-
-## 添加搜索引擎（optional）
+## 添加搜索引擎
 preferences -> advanced -> files and folders -> show data directory -> Zotero -> engines.json
-### 设置Sci-Hub作为PDF解析器
+### Zotero利用Sci-hub下载原文
+设置Sci-Hub作为PDF解析器
 - PDF resolvers的设置在Zotero的Config Editor中。
 - 我们打开Zotero的首选项，进入`Advanced-->Config Editor`。
 - 搜索`extensions.zotero.findPDFs.resolvers`，如下。
@@ -64,9 +63,12 @@ preferences -> advanced -> files and folders -> show data directory -> Zotero ->
 到此就成功将Sci-Hub配置为PDF解析器了，也就是说替代了默认的Unpaywall。
 
 ## 引用参考文献
-中文书籍引用
+### 中文书籍引用
 - 手动添加条目
-- 去douban上找相应的书籍利用插件添加
+- 去douban上找相应的书籍利用浏览器connection插件添加
+### 快速复制参考文献格式到ppt
+* quick copy
+	* preference -> export -> quick copy
 
 ## ref
 
