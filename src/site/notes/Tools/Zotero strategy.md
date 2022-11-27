@@ -5,6 +5,9 @@
 
 # Zotero使用技巧
 
+## 安装
+- 官网[Zotero | Your personal research assistant](https://www.zotero.org/)下载安装
+
 ## 常用插件工具
 - 浏览器插件Zotero connection
 	- chrome安装后可以在页面上直接点击从而收录到相应zotero文件夹
