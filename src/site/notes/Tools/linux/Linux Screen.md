@@ -41,7 +41,7 @@ screen -S name
 screen -r name
 首先查看当前有哪些screen窗口，通过命令：
 `screen -ls` 将列出窗口列表
-![img](https://img2018.cnblogs.com/blog/787798/201810/787798-20181026175344791-956631152.png)
+![](https://cdn.jsdelivr.net/gh/jmwyf/pichosting@master/screen.png)
 由以上可知，当前有两个窗口，其中test窗口已经被杀死，test2窗口分离。可以通过以下命令恢复test2：
 `screen -r test2` 或 `screen -r 27582`
 这样就返回了test2窗口
