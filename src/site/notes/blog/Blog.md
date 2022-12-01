@@ -11,3 +11,4 @@
 ## Tools
 [[Tools/Obsidian Basic\|Obsidian Basic]] 
 [[Tools/Zotero strategy\|Zotero strategy]]
+[[Tools/linux/Linux Screen\|Linux Screen]]
