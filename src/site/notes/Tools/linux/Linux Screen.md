@@ -3,15 +3,17 @@
 ---
 
 
+# Ubuntu下screen的使用
+
+- [[Tools/linux/Linux Screen#简介\|简介]]
 - [[Tools/linux/Linux Screen#安装\|安装]]
 - [[Tools/linux/Linux Screen#新建窗口\|新建窗口]]
 - [[Tools/linux/Linux Screen#分离会话\|分离会话]]
 - [[Tools/linux/Linux Screen#恢复会话\|恢复会话]]
 - [[Tools/linux/Linux Screen#杀死会话\|杀死会话]]
-- [[Tools/linux/Linux Screen#清除死去\|清除死去]]
+- [[Tools/linux/Linux Screen#清除dead\|清除dead]]
 
-# Ubuntu下screen的使用
-
+## 简介
 关掉终端xshell之后网站也随着关闭，我们可以使用screen[^1]命令，来让保证退出ssh之后程序继续在后台跑。
 
 利用SSH远程连接服务器，运行程序需要保证在此期间窗口不能关闭并且连接不能断开，否则当前窗口所运行的任务就被杀死[^2]。
@@ -48,7 +50,7 @@ screen -r name
 通过命令`kill -9 threadnum`
 注意此处只能通过id号来杀死窗口。
 
-## 清除死去
+## 清除dead
 通过命令`screen -wipe`
 这个命令将自动清除所有处于dead状态的窗口
 
