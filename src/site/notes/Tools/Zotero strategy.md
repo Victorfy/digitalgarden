@@ -8,13 +8,12 @@
 - [[Tools/Zotero strategy#安装\|安装]]
 - [[Tools/Zotero strategy#常用插件工具\|常用插件工具]]
 - [[Tools/Zotero strategy#坚果云存储文献\|坚果云存储文献]]
-- [[Tools/Zotero strategy#添加搜索引擎[^1]\|添加搜索引擎[^1]]]
-	- [[Tools/Zotero strategy#添加搜索引擎[^1]\|Zotero利用Sci-hub下载原文[^2]]]
+- [[Tools/Zotero strategy#添加搜索引擎\|添加搜索引擎]]
+	- [[Tools/Zotero strategy#添加搜索引擎\|Zotero利用Sci-hub下载原文]]
 - [[Tools/Zotero strategy#引用参考文献\|引用参考文献]]
-	- [[Tools/Zotero strategy#引用参考文献\|中文书籍引用[^3]]]
+	- [[Tools/Zotero strategy#引用参考文献\|中文书籍引用]]
 	- [[Tools/Zotero strategy#引用参考文献\|中英文混合引用]]
 	- [[Tools/Zotero strategy#引用参考文献\|快速复制参考文献格式到ppt]]
-
 
 ## 安装
 - 官网[Zotero | Your personal research assistant](https://www.zotero.org/)下载安装
@@ -40,10 +39,10 @@ zotero拥有很多开源插件，实现比如文献重命名、影响因子更�
 - Zotero - preference - advanced - files and folder - linked attachment选择相对路径填写坚果云中新建的路径
 - 在其他电脑上安装坚果云同理设置即可同步附件
 
-## 添加搜索引擎[^1]
-preferences -> advanced -> files and folders -> show data directory -> Zotero -> engines.json
-### Zotero利用Sci-hub下载原文[^2]
-设置Sci-Hub作为PDF解析器
+## 添加搜索引擎
+preferences[^1] -> advanced -> files and folders -> show data directory -> Zotero -> engines.json
+### Zotero利用Sci-hub下载原文
+设置Sci-Hub作为PDF解析器[^2]
 - PDF resolvers的设置在Zotero的Config Editor中。
 - 我们打开Zotero的首选项，进入`Advanced-->Config Editor`。
 - 搜索`extensions.zotero.findPDFs.resolvers`，如下。
@@ -64,8 +63,8 @@ preferences -> advanced -> files and folders -> show data directory -> Zotero ->
 到此就成功将Sci-Hub配置为PDF解析器了，也就是说替代了默认的Unpaywall。
 
 ## 引用参考文献
-### 中文书籍引用[^3]
-- 手动添加条目
+### 中文书籍引用
+- 手动添加条目[^3]
 - 去douban上找相应的书籍利用浏览器connection插件添加
 ### 中英文混合引用
 - 直接同时生成“等”和“et al”，在下面代码库中找到合适自己的引用方式，一般用002[^4]
