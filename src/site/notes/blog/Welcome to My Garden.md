@@ -8,3 +8,4 @@ This is the home page of my digital garden.
 
 [[blog/Blog\|Blog]]
 [[blog/Read\|Read]]
+
