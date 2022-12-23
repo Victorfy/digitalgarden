@@ -8,13 +8,12 @@
 - [[Tools/Zotero strategy#安装\|安装]]
 - [[Tools/Zotero strategy#常用插件工具\|常用插件工具]]
 - [[Tools/Zotero strategy#坚果云存储文献\|坚果云存储文献]]
-- [[Tools/Zotero strategy#Zotero利用Sci-hub下载原文\|Zotero利用Sci-hub下载原文]]
+- [[Tools/Zotero strategy#利用Sci-hub下载原文\|利用Sci-hub下载原文]]
 - [[Tools/Zotero strategy#引用参考文献\|引用参考文献]]
 	- [[Tools/Zotero strategy#引用参考文献\|中文书籍引用]]
 	- [[Tools/Zotero strategy#引用参考文献\|中英文混合引用]]
 	- [[Tools/Zotero strategy#引用参考文献\|快速复制参考文献格式到ppt]]
 - [[Tools/Zotero strategy#添加搜索引擎\|添加搜索引擎]]
-
 
 ## 安装
 - 官网[Zotero | Your personal research assistant](https://www.zotero.org/)下载安装
