@@ -3,7 +3,7 @@
 ---
 
 
-## Knowledge
+## Notes
 [[permanent notes/写给小胖粒的《贝叶斯深度学习》（1）\|写给小胖粒的《贝叶斯深度学习》（1）]]
 [[permanent notes/Game Theory - The Shapley Value\|Game Theory - The Shapley Value]]
 [[permanent notes/真阳性、假阳性、真阴性、假阴性\|真阳性、假阳性、真阴性、假阴性]]
