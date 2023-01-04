@@ -7,11 +7,11 @@
 @lundbergUnifiedApproachInterpreting2017
 
 ## Introduction
-- The growing availability of big data has increased the benefits of using complex models
-- Present a novel unified approach to interpreting model predictions
-	- the perspective of viewing any explanation of a model’s prediction as a model itself, which we term `the explanation model`.
-	- propose SHAP values as a unified measure of feature importance that various methods approximate.
-	- propose new SHAP value estimation methods and demonstrate that they are better aligned with human intuition
+- 大数据让复杂模型的优势明显
+- 提出一种新颖统一的方法用于模型解释
+	- 用模型的方法来解释复杂模型（用魔法打败魔法）
+	- 提出SHAP值作为各种方法近似统一特征重要度度量
+	- 提出新的SHAP值估计方法
 
 ## Interpretation model properties
 描述解释模型需要有的三个性质，而现在解释方法的缺陷[^1]
@@ -25,6 +25,8 @@
 ## **Additive Feature Attribution methods**
 一大类方法中解释模型是一系列二元变量的线性函数
 称为**Additive Feature Attribution methods**（AFA）相加特征归因方法
+$$g(z') = \phi_0 + \sum_{i=1}^{M}\phi_i z'_{i}$$
+$z' \in \{0, 1\}^M$
 
 ## Classic Shapley Value Estimation
 $$\phi_{i} = \sum_{S \subseteq F\backslash\{i\}}\frac{|S|!(|F|-|S|-1)!}{|F|!}[f_{S\cup\{i\}}(x_{S\cup\{i\}})-f_{S(x_S)}]$$
@@ -58,7 +60,8 @@ LIME（Local interpretable model-agnostic explanations）方法的拓展，通�
 - 基于SHAP kernel计算$z_k^{'}$ 样本权重，$z_k$里面1的个数不一样权重就不一样
 - 拟合线性模型
 - 从线性模型中返回Shapley values
-SHAP核为(推导过程见2补充材料)：$$\pi_{x'}(z')= \frac{(M-1)}{(M choose |z'|)|z'|(M-|z'|)}$$
+SHAP核为(推导过程见2补充材料)：
+$$\pi_{x'}(z')= \frac{(M-1)}{(M choose |z'|)|z'|(M-|z'|)}$$
 $$L(f,g, \pi_{x'})=\sum_{z'\in Z}[f(h_x^{-1}(z'))-g(z')]^2\pi_{x'}(z')$$
 x'为简化输入，$x=h_x(x')$, $z' \subseteq x'$
 
@@ -88,8 +91,7 @@ DeepLIFT计算的分数近似于Shapley value?
 ![](https://cdn.jsdelivr.net/gh/jmwyf/pichosting@master/shap.png)
 figure form [3]
 - 基于Shapley value的定义以及公式可以看出重要的一部分即边际效应，即模型包含该特征减去未包含该部分。在上述一个神经网络模块里面，特征顺序选择都不存在。
-- 把用实际值代替参考值看作是包含某个特征，DeepLIFT方法
-
+- 把用实际值代替参考值看作是包含某个特征，DeepLIFT方法与DeepSHAP区别在哪？
 
 
 #XAI #SHAP
